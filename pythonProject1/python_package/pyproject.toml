@@ -1,0 +1,17 @@
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+name = "example_package_arvlr"
+version = "1.0.0"
+authors = [
+    {name = "Arun" ,email ="arunlsplunk@gmail.com"},]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
